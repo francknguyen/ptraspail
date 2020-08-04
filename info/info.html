@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PT Raspail</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style_info.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="../images/raspail.jpg">
+                <h3>PT Raspail</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li id="accueil"><a href="../index.html" class="active">
+                    <div class="icon"><i class="fas fa-home"></i></div>
+                    <div class="texte">Accueil</div>
+                    </a>
+                </li>
+                <li><a href="../math/math.html">
+                    <div class="icon"><i class="fas fa-superscript"></i></div>
+                    <div class="texte">Mathématiques</div>
+                    </a> 
+                </li>
+                <li><a href="info.html">
+                    <div class="icon"><i class="fas fa-desktop"></i></div>
+                    <div class="texte">Informatique</div>
+                    </a>
+                </li>
+                <li><a href="../liens/liens.html">
+                    <div class="icon"><i class="fas fa-info"></i></div>
+                    <div class="texte">Liens utiles</div></a>
+                </li>
+                <li><a href="mailto:nguyenptsiraspail@gmail.com">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div class="texte">Contact</div></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="inverse">
+                <div class="container-fluid">
+                    <div id="texte">
+                        <strong>Informatique</strong>
+                    </div>
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>
+                </div>
+                
+            </nav>
+
+            <div id="grille">
+                <h2 id="titre">Ecrits</h2>
+                <div class="detail_ecrit">
+                <p class="consigne">
+                    L'épreuve écrite de modélisation-informatique comporte deux parties : 
+                    <ul>
+                        <li>1h30 de modélisation (physiques/SI),</li>
+                        <li>2h30 d'informatique.</li>
+                    </ul> 
+                    Vous trouverez ici les sujets entiers et les corrigés des parties d'informatique. Ces corrigés ont été pris sur le site de l'UPS. A la fin, la lecture des rapports de jury est toujours intéressante.</br>
+                    Signalons que la majorité de la partie informatique porte sur le programme de sup : vous pouvez donc tout à fait commencer à traiter les sujets, pour au besoin y revenir plus tard et compléter les questions manquées. 
+                </p>
+                </div>
+                <div class="card" id="info2015">
+                    <div class="card-header">
+                      2015 - Système de carte Navigo
+                    </div>
+                    <div class="card-body">
+                      <button class="btn btn-primary"><a href="pdf/Sujet_2015.pdf">Sujet</a> </button>
+                      <button class="btn btn-danger"><a href="pdf/Correction_2015.pdf">Corrigé</a></button>
+                      <button class="btn btn-success"><a href="pdf/Rapport_2015.pdf">Rapport</a></button>
+                    </div>
+                </div>
+                <div class="card" id="info2016">
+                    <div class="card-header">
+                      2016 - Tensiomètre électronique
+                    </div>
+                    <div class="card-body">
+                      <button class="btn btn-primary"><a href="pdf/Sujet_2016.pdf">Sujet</a> </button>
+                      <button class="btn btn-danger"><a href="pdf/Correction_2016.pdf">Corrigé</a></button>
+                      <button class="btn btn-success"><a href="pdf/Rapport_2016.pdf">Rapport</a></button>
+                    </div>
+                </div>
+                <div class="card" id="info2017">
+                    <div class="card-header">
+                      2017 - Moteur à allumage
+                    </div>
+                    <div class="card-body">
+                      <button class="btn btn-primary"><a href="pdf/Sujet_2017.pdf">Sujet</a> </button>
+                      <button class="btn btn-danger"><a href="pdf/Correction_2017.pdf">Corrigé</a></button>
+                      <button class="btn btn-success"><a href="pdf/Rapport_2017.pdf">Rapport</a></button>
+                    </div>
+                </div>
+                <div class="card" id="info2015">
+                    <div class="card-header">
+                      2018 - Etude d'un cinémomètre
+                    </div>
+                    <div class="card-body">
+                      <button class="btn btn-primary"><a href="pdf/Sujet_2018.pdf">Sujet</a> </button>
+                      <button class="btn btn-danger"><a href="pdf/Correction_2018.pdf">Corrigé</a></button>
+                      <button class="btn btn-success"><a href="pdf/Rapport_2018.pdf">Rapport</a></button>
+                    </div>
+                </div>
+                <div class="card" id="info2019">
+                    <div class="card-header">
+                      2019 - Figures de Chladni
+                    </div>
+                    <div class="card-body">
+                      <button class="btn btn-primary"><a href="pdf/Sujet_2019.pdf">Sujet</a> </button>
+                      <button class="btn btn-danger"><a href="pdf/Correction_2019.pdf">Corrigé</a></button>
+                      <button class="btn btn-success"><a href="pdf/Rapport_2019.pdf">Rapport</a></button>
+                    </div>
+                </div>
+                <div class="card" id="info2020">
+                    <div class="card-header">
+                      2020 - Réverbération
+                    </div>
+                    <div class="card-body">
+                      <button class="btn btn-primary"><a href="pdf/Sujet_2020.pdf">Sujet</a> </button>
+                      <button class="btn btn-danger"><a href="pdf/Correction_2020.pdf">Corrigé</a></button>
+                    </div>
+                </div>
+
+                <div class="line"></div>
+
+                <h2 id="Oraux">Oraux</h2>
+                <div class="detail_ecrit">
+                    <p class="consigne">
+                        L'épreuve orale de Mathématiques et Algorithmique comporte un exercice d'informatique à résoudre avec l'environnement Idle (et non Pyzo/Spyder). 
+                        Le contexte de l'exercice est souvent mathématique. Vous trouverez ci-bas les rapports des épreuves orales dont la lecture vous sera très profitable. A la fin des rapports figurent des exercices types, dont certains sont rassemblés et corrigés ci-bas.</br>
+                        Lors de l'epreuve orale, vous aurez droit au mémemto Python (auquel il faut donc vous familiariser).         
+                    </p>    
+                </div>
+                <ul id="list_rapports">
+                    <li><strong>Rapports des épreuves orales</strong>
+                        <div id="rapports">
+                            <button class="btn btn-success"><a href="Oral/Oral_2015.pdf">2015</a></button>
+                            <button class="btn btn-success"><a href="Oral/Oral_2016.pdf">2016</a></button>
+                            <button class="btn btn-success"><a href="Oral/Oral_2017.pdf">2017</a></button>
+                            <button class="btn btn-success"><a href="Oral/Oral_2018.pdf">2018</a></button>
+                            <button class="btn btn-success"><a href="Oral/Oral_2019.pdf">2019</a></button>
+                        </div>
+                    </li>
+                    <li><strong>Recueil d'épreuves orales avec corrigés</strong>
+                        <div id="rapports">
+                            <button class="btn btn-primary"><a href="Oral/Oraux_sujet.pdf">Oraux</a></button>
+                            <button class="btn btn-danger"><a href="Oral/Oraux_correction.pdf">Corrigé</a></button>
+                        </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <!-- Fin content -->
+
+        
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
