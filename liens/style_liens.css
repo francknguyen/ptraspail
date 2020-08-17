@@ -6,14 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
+    color:black;
 }
 
 a,
@@ -44,11 +37,6 @@ a:focus {
     height: 1px;
     border-bottom: 1px dashed #ddd;
     margin: 40px 0;
-}
-
-.container-fluid{
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 /* ---------------------------------------------------
@@ -177,17 +165,12 @@ a.article:hover {
     color: #fff !important;
 }
 
-.link{
-    color:blue;
-    text-decoration: underline;
-}
-
-
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
 
 #content {
+    font-family: 'Poppins', sans-serif;
     width: calc(100% - 250px);
     padding: 40px;
     min-height: 100vh;
@@ -195,17 +178,25 @@ a.article:hover {
     position: absolute;
     top: 0;
     right: 0;
+    font-weight: 300;
+    line-height: 1.7em;
+    font-size: 1em;
 }
 
-#content p{
-    text-align: justify;
-}
+
+
 
 #content.active {
     width: 100%;
 }
 
 /* Le texte à droite */
+
+.container-fluid{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 #texte{
     position: absolute;
     left:20px;
@@ -227,14 +218,10 @@ a.article:hover {
 }
 
 
-#liste{
-    margin-bottom: 100px;
-}
 
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-
 
 @media (max-width: 768px) {
     #sidebar {
