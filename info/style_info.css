@@ -46,6 +46,11 @@ a:focus {
     margin: 40px 0;
 }
 
+.container-fluid{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
@@ -61,7 +66,7 @@ a:focus {
     top: 0;
     left: 0;
     height: 100vh;
-    z-index: 999;
+    z-index: 9999;
     background: #7386D5;
     color: #fff;
     transition: all 0.3s;
@@ -69,6 +74,10 @@ a:focus {
 }
 
 #sidebar.active {
+    margin-left: -250px;
+}
+
+#grille.active {
     margin-left: -250px;
 }
 
@@ -172,6 +181,9 @@ a.article:hover {
     color: #fff !important;
 }
 
+
+
+
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
@@ -195,56 +207,78 @@ a.article:hover {
 }
 
 /* Le texte à droite */
-.container-fluid{
-    display: flex;
-    flex-direction: row-reverse;
-}
-
 #texte{
     position: absolute;
     left:20px;
 }
 
 
+#footer{
+    display: flex;
+    width: 100%;
+    bottom:0px;
+    left: 0px;
+    color:black;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#footer h3{
+    font-size: 15px;
+    text-align: center;
+}
+
+
 #grille {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4,1fr);
     grid-gap: 5px;
     grid-auto-rows: minmax(50px, auto);
     margin-bottom: 200px;
 }
 
 #titre{
-    grid-column: 1/4;
+    grid-column: 1/5;
 }
 
+#legend{
+    grid-column: 1/5;
+    display: flex;
+    justify-content: space-around;
+}
 
-.btn{
-    width:85px;
+#legend .btn{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#grille .btn{
+    width:5vh;
+    margin-bottom: 10px;
 }
 
 .card-body{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+    grid-auto-rows: minmax(10px, auto);
 }
 
 .card-header{
     text-align: center;
 }
 
-
-
-.line{
-    grid-column: 1/4;
+#A,#B,#C{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.oraux{
-    grid-column: 1/4;
-}
 
 .detail_ecrit{
     grid-column: 1/4;
-    border-left: 5px solid red;
+    border-left: 5px solid black;
     padding-left: 20px;
     margin-bottom: 20px;
 }
@@ -254,39 +288,10 @@ a.article:hover {
     color: black;
 }
 
-#list_rapports{
-    grid-column: 1/4;
+#DBbrowser{
+    color:blue;
 }
 
-#rapports{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#footer{
-    display: flex;
-    height: 150px;
-    width: 100%;
-    position: absolute;
-    background:rgba(0,0,0,0.05);
-    bottom:0px;
-    left: 0px;
-    color:black;
-    align-items: center;
-    justify-content: center;
-}
-
-#last{
-    margin-bottom: 300px;
-}
-
-#footer h3{
-    font-size: 15px;
-    text-align: center;
-}
 
 
 
