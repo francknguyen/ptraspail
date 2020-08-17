@@ -177,6 +177,7 @@ a.article:hover {
 ----------------------------------------------------- */
 
 #content {
+    font-family: 'Poppins', sans-serif;
     width: calc(100% - 250px);
     padding: 40px;
     min-height: 100vh;
@@ -208,19 +209,12 @@ a.article:hover {
 
 #footer{
     display: flex;
-    height: 150px;
     width: 100%;
-    position: absolute;
-    background:rgba(0,0,0,0.05);
     bottom:0px;
     left: 0px;
     color:black;
     align-items: center;
-    justify-content: center;
-}
-
-#last{
-    margin-bottom: 300px;
+    justify-content: flex-end;
 }
 
 #footer h3{
@@ -228,6 +222,10 @@ a.article:hover {
     text-align: center;
 }
 
+#page{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
 
 
 /* ---------------------------------------------------
