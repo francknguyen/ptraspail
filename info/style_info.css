@@ -292,8 +292,15 @@ a.article:hover {
     color: black;
 }
 
-#DBbrowser{
+.DBbrowser{
     color:blue;
+    text-decoration: underline;
+}
+
+a.DBbrowser:hover{
+    background-color:yellow;
+    color:blue;
+    text-decoration: underline;
 }
 
 
