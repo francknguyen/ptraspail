@@ -213,25 +213,19 @@ a.article:hover {
 
 #footer{
     display: flex;
-    height: 150px;
     width: 100%;
-    position: absolute;
-    background:rgba(0,0,0,0.05);
     bottom:0px;
     left: 0px;
     color:black;
     align-items: center;
-    justify-content: center;
-}
-
-#last{
-    margin-bottom: 300px;
+    justify-content: flex-end;
 }
 
 #footer h3{
     font-size: 15px;
     text-align: center;
 }
+
 
 #liste{
     margin-bottom: 100px;
