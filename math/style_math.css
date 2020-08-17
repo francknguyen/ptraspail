@@ -10,10 +10,10 @@ body {
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 300;
     line-height: 1.7em;
-    color: #999;
+    color: black;
 }
 
 a,
@@ -196,6 +196,10 @@ a.article:hover {
     position: absolute;
     top: 0;
     right: 0;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: black;
 }
 
 #content p{
