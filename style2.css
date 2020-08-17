@@ -6,14 +6,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     background: #fafafa;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
+    color:black;
 }
 
 a,
@@ -185,11 +178,13 @@ a.article:hover {
     position: absolute;
     top: 0;
     right: 0;
+    font-weight: 300;
+    line-height: 1.7em;
+    font-size: 1em;
 }
 
-#content p{
-    text-align: justify;
-}
+
+
 
 #content.active {
     width: 100%;
@@ -222,10 +217,6 @@ a.article:hover {
     text-align: center;
 }
 
-#page{
-    color: black;
-    font-family: 'Poppins', sans-serif;
-}
 
 
 /* ---------------------------------------------------
