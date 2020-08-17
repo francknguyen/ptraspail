@@ -217,9 +217,13 @@ a.article:hover {
     text-align: center;
 }
 
-.link{
+a.link{
     color:blue;
     text-decoration: underline;
+}
+
+a.link:hover{
+    background-color:yellow;
 }
 
 
