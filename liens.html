@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PT Raspail</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style_liens.css">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <img src="../images/raspail.jpg">
+                <h3>PT Raspail</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <li id="accueil"><a href="../index.html" class="active">
+                    <div class="icon"><i class="fas fa-home"></i></div>
+                    <div class="texte">Accueil</div>
+                    </a>
+                </li>
+                <li><a href="../math/math.html">
+                    <div class="icon"><i class="fas fa-superscript"></i></div>
+                    <div class="texte">Mathématiques</div>
+                    </a> 
+                </li>
+                <li><a href="../info/info.html">
+                    <div class="icon"><i class="fas fa-desktop"></i></div>
+                    <div class="texte">Informatique</div>
+                    </a>
+                </li>
+                <li><a href="liens.html">
+                    <div class="icon"><i class="fas fa-info"></i></div>
+                    <div class="texte">Liens utiles</div></a>
+                </li>
+                <li><a href="mailto:nguyenptsiraspail@gmail.com">
+                    <div class="icon"><i class="fas fa-envelope"></i></div>
+                    <div class="texte">Contact</div></a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Page Content  -->
+        <div id="content">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span>Menu</span>
+                    </button>
+                </div>
+                <div id="texte">
+                    <strong>Liens utiles</strong>
+                </div>
+            </nav>
+
+            <h2>Ressources</h2>
+            <ul id="liste">
+                <li>
+                    <p>
+                    De nombreuses informations utiles (tous les sujets et rapports de toutes les matières, les coefficients aux concours, etc...) se trouvent sur le site officiel : </br>
+                    <a href="https://www.banquept.fr" class="link">Site officiel de la Banque PT</a>
+                    </p>
+                </li>
+                <li>
+                    <p>Certains corrigés des écrits de math manquent sur ce site. Vous pourrez les trouver sur le site suivant :</br>
+                    <a href="https://cristofari.pagesperso-orange.fr/ecrits.html" class="link">Site perso de Cristofari</a> </p>
+                </li>
+                <li>
+                    <p>Le site suivant regorge de planches d'oraux :</br>
+                    <a href="https://beos.prepas.org/?q=consulter-epreuves-orales/toutesan" class="link">Beos (Base d'épreuves orales scientifiques de concours aux grandes écoles)</a> </p>
+                </li>
+                <li>
+                    <p>Le site <em>Project Euler</em> est excellent pour pratiquer l'algorithmie (en particulier l'épreuve orale d'informatique): </br>
+                    <a href="https://projecteuler.net/" class="link">Project Euler</a> </p>
+                </li>
+                <li>
+                    <p>Pour les statistiques d'intégration : </br>
+                    <a href="https://www.scei-concours.fr/statistiques.php" class="link">Scei Concours</a> </p>
+                </li>
+            </ul>
+            <div class="line"></div>
+             <div id="footer">
+                <h3>Lycée Raspail - Ressources pour les PT/PT*</h3>
+            </div>
+        </div>
+       
+        
+
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#sidebar").mCustomScrollbar({
+                theme: "minimal"
+            });
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar, #content').toggleClass('active');
+                $('.collapse.in').toggleClass('in');
+                $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+            });
+        });
+    </script>
+</body>
+
+</html>
