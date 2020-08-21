@@ -1,3 +1,3 @@
-# ptraspail
+# PT/PT* raspail
 
-#Un site pour les PT/PT* de Raspail
+Un site de Mathématiques pour les PT/PT* de Raspail.
